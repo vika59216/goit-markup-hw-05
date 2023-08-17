@@ -30,10 +30,10 @@
             
                 <ul class="header-menu-list list">
                     <li class="header-menu-item list">
-                        <a class="header-menu-link link color caren" href="./index.html">Studio</a>
+                        <a class="header-menu-link link color current" href="./index.html">Studio</a>
                     </li>
                     <li class="header-menu-item list">
-                        <a class="header-menu-link link color caren" href="./portfolio.html">Portfolio</a>
+                        <a class="header-menu-link link color current" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li class="header-menu-item list">
                         <a class="header-menu-link link color" href="">Contacts</a>
@@ -443,6 +443,67 @@
                 <use class="modal-icon-top" href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
             </svg>
         </button>
+        <p class="modal-tittle">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+
+            <div class="modal-field">
+            <label for="user-name" class="modal-label">Name*</label>
+            <div class="modal-input-wrap">
+            <input type="text" class="modal-input"
+             name="user-name" placeholder="Name*"
+              required id="user-name"/>
+              <svg class="modal-icon"  width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+            </div>
+
+            <div class="modal-field">
+            <label for="user-tel" class="modal-label">Phone*</label>
+            <div class="modal-input-wrap">
+            <input type="tel" class="modal-input"
+              name="user-tel" placeholder="Phone*" required
+              id="user-tel"/>
+            <svg class="modal-icon" width="18px" height="18px" >
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+            </div>
+            </div>
+
+            <div class="modal-field">
+            <label for="user-email" class="modal-label">Email</label>
+            <div class="modal-input-wrap">
+            <input type="email" class="modal-input"
+             name="user-email" 
+              placeholder="Email"
+              id="user-email"/>
+            <svg class="modal-icon"  width="18px" height="18px">
+                <use  href="./images/icons.svg#icon-email-black-18dp-1"></use>
+            </svg>
+            </div>
+            </div>
+
+            <div class="modal-field">
+                <label for="user-text" class="modal-label">Comment</label>
+                <textarea name="user-text" id="user-text" class="modal-comment" placeholder="Text input"></textarea>
+
+
+            </div>
+            <div class="modal-field">
+            <input type="checkbox" id="polisy" value="true" class="modal-check visually-hidden"/>
+            <label for="policy" claas="modal-check-text">
+                <span>
+                    <svg width="16px" height="16px">
+                        <use href="./images/icons.svg#icon-Checkbox"> </use>
+                    </svg>
+                </span>
+                I accept the terms and conditions of the
+                 <a href=""  class="modal-check-link"> Privacy Policy</a></label>
+                </div>
+
+              
+            <button type="submit" class="modal-form-btn" disabled>Send</button>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
