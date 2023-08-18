@@ -1119,6 +1119,13 @@ width: calc((100% - 72px) / 4);
          .modal-field{
             margin-bottom: 8px;
            
+           
+
+
+         }
+
+         .modal-field-comment{
+            margin-bottom: 16px;
 
 
          }
