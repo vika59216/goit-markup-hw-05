@@ -177,6 +177,14 @@ ul{
             height: 4px;
             background-color: #404bbf;
             border-radius: 2px;
+            width: 100%;
+        }
+
+        .header-menu-link.current{
+            position: relative;
+        color: var(--ocean, #404BBF);
+
+
         }
 
 
@@ -1242,6 +1250,8 @@ width: calc((100% - 72px) / 4);
 
                  .modal-check:checked +.modal-check-text .span-policy{
                 background-color: #404BBF;
+                border: none;
+               
                   
                  }
 
