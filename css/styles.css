@@ -1017,12 +1017,12 @@ width: calc((100% - 72px) / 4);
     }
 
     .modal-close-btn{
-    position: absolute;
+        position: absolute;
         top: 24px;
         right: 24px;
         height: 24px;
         width: 24px;
-                  border-radius: 50%;
+                border-radius: 50%;
                   display: flex;
                   align-items: center;
                   justify-content: center;
@@ -1228,18 +1228,19 @@ width: calc((100% - 72px) / 4);
 
 
          .modal-check-text{
-            width: 16px;
-            height: 16px;
-            stroke-width: 1px;
-                stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+          
                 margin-right: 8px;
                 color: #8e8f99;;
                 align-items: center;
                 fill: transparent;
                 display: block;
+               
                  font-size: 12px;
                 line-height: 1.17;
                 letter-spacing: 0.04em;
+              
+                    stroke-width: 1px;
+                    stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
 
 
 
@@ -1251,6 +1252,7 @@ width: calc((100% - 72px) / 4);
                  .modal-check:checked +.modal-check-text .span-policy{
                 background-color: #404BBF;
                 border: none;
+               
                
                   
                  }
