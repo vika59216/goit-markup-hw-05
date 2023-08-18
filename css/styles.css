@@ -907,8 +907,8 @@ width: calc((100% - 72px) / 4);
                 cursor: pointer;
                 background-color: #4D5AE5;
                 border: none; 
-                margin-left: 16px;
-
+                font-family: "Roboto", sans-serif
+              
     }
     .footer-input-label{
        
@@ -916,6 +916,7 @@ width: calc((100% - 72px) / 4);
 
     .label-icon-button{
         
+        margin-left: 16px;
 
     }
 
