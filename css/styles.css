@@ -907,11 +907,11 @@ width: calc((100% - 72px) / 4);
 
     }
     .footer-input-label{
-        margin-right: 24px;
+       
     }
 
     .label-icon-button{
-        margin-left: 16px;
+        
 
     }
 
@@ -933,7 +933,7 @@ width: calc((100% - 72px) / 4);
     }
 
     .social-media{
-        margin-right: 120px;
+        margin-right: 80px;
 
         
 
