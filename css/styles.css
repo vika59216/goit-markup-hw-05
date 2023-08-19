@@ -893,7 +893,7 @@ width: calc((100% - 72px) / 4);
             padding: 8px 24px;
             justify-content: center;
             align-items: center;
-            gap: 16px;
+            
             border-radius: 4px;
                 min-width: 165px;
                 height: 40px;
@@ -1097,7 +1097,7 @@ width: calc((100% - 72px) / 4);
              font-weight: 500;
              line-height: 1.5;
              margin-bottom: 16px;
-             padding-top: 72px;
+           
             letter-spacing: 0.02em;
     
          }
@@ -1181,7 +1181,7 @@ width: calc((100% - 72px) / 4);
 
          .modal-icon{
             fill: transparent;
-            stroke: #2E2F42;
+           
             position: absolute;
             left:16px;
             top: 50%;
@@ -1237,6 +1237,7 @@ width: calc((100% - 72px) / 4);
                      align-items: center;
                     display: block;
                     font-size: 12px;
+                    
 
         
         
@@ -1255,18 +1256,19 @@ width: calc((100% - 72px) / 4);
 
          .modal-check-text{
           
-                margin-right: 8px;
+            
                 color: #8e8f99;;
                 align-items: center;
                 fill: transparent;
                 display: block;
-               
+            
                  font-size: 12px;
                 line-height: 1.17;
                 letter-spacing: 0.04em;
               
                     stroke-width: 1px;
                     stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+                   
 
 
 
@@ -1291,6 +1293,7 @@ width: calc((100% - 72px) / 4);
 
             .modal-policy{
                 margin-bottom: 24px;
+                
 
 
             }
@@ -1304,6 +1307,10 @@ width: calc((100% - 72px) / 4);
                 align-items: center;
                  justify-content: center;
                 fill: transparent;
+                    stroke: transparent;
+                    margin-right: 8px;
+               
+
 
             }
 
@@ -1331,6 +1338,15 @@ width: calc((100% - 72px) / 4);
             }
 
             .modal-icon-modal{}
+
+
+            .modal-top-super{
+                fill: transparent;
+                stroke: transparent;
+                
+
+
+            }
             
             
 
