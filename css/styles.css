@@ -1074,9 +1074,10 @@ width: calc((100% - 72px) / 4);
       
         }
 
-     .modal-close-btn:hover{
-        background-color: #404bbf;
+     .modal-close-btn:hover .modal-icon-modal{
+       
         border: none;
+        fill:#FFF;
      
 
      }
@@ -1088,12 +1089,11 @@ width: calc((100% - 72px) / 4);
      }
 
      .modal:hover{
-        fill: #ffffff
-
+      
      }
 
      .modal:focus {
-        fill: #ffffff
+       
 
      }
 
