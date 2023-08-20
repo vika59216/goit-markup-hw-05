@@ -1081,6 +1081,10 @@ width: calc((100% - 72px) / 4);
      
 
      }
+     .modal-close-btn:hover{
+        background-color: #404bbf;
+     }
+
 
      .modal-close-btn:focus{
         background-color: #404bbf;
